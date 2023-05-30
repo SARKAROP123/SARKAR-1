@@ -60,13 +60,13 @@ from FallenMusic.Helpers.thumbnails import gen_qthumb, gen_thumb
 
 
 @app.on_message(
-    filters.command(["play", "vplay", "p"])
+    filters.command(["play", "vplay", "tks"])
     & filters.group
     & ~filters.forwarded
     & ~filters.via_bot
 )
 async def play(_, message: Message):
-    fallen = await message.reply_text("» ᴘʀᴏᴄᴇssɪɴɢ, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    fallen = await message.reply_text("» 🍹𝐖𝐀𝐈𝐓🌱𝐁𝐀𝐁𝐘💖𝐏𝐋𝐀𝐘𝐈𝐍𝐆💋𝐅𝐎𝐑🥀𝐔𝐇𝐇...")
     try:
         await message.delete()
     except:
@@ -179,7 +179,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit_text("» ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴘʟᴀʏ ʙᴀʙʏ ?")
-        await fallen.edit_text("🔎")
+        await fallen.edit_text("💯")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -221,7 +221,7 @@ async def play(_, message: Message):
         qimg = await gen_qthumb(videoid, message.from_user.id)
         await message.reply_photo(
             photo=qimg,
-            caption=f"**➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ̨ᴜᴇᴜᴇ ᴀᴛ {position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+            caption=f"**➻ 🌱𝐀𝐃𝐃𝐄𝐃 𝐓𝐎 𝐒𝐎𝐍𝐆{position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍🥀 :** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄🍹\n‣ **𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐁𝐘🍷 :** {ruser}",
             reply_markup=buttons,
         )
     else:
@@ -251,7 +251,7 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-        caption=f"➻💿❰🍷𝗦𝐀𝐑𝐊𝐀𝐑 𝐌𝐔𝐒𝐈𝐂🍷❱💿𝐒𝐓𝐀𝐑𝐓𝐄𝐃🍷𝐏𝐋𝐀𝐘𝐈𝐍𝐆🚩𝐁𝐀𝐁𝐘🍒\n\n🌌 ᴛɪᴛʟᴇ : [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n🎶 💋𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐓𝐈𝐌𝐄💋 : {duration} ᴍɪɴᴜᴛᴇs\n💥 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐁𝐘 : {ruser}",
+        caption=f"➻💿❰🍷𝗦𝐀𝐑𝐊𝐀𝐑 𝐌𝐔𝐒𝐈𝐂🍷❱💿𝐒𝐓𝐀𝐑𝐓𝐄𝐃🍷𝐏𝐋𝐀𝐘𝐈𝐍𝐆🚩𝐁𝐀𝐁𝐘🍒\n\n🌌 ᴛɪᴛʟᴇ : [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n🎶 🪴𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐓𝐈𝐌𝐄👀 : {duration} ᴍɪɴᴜᴛᴇs\n💥 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐁𝐘 : {ruser}",
             reply_markup=buttons,
         )
 
