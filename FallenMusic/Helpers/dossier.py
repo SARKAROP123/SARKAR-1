@@ -31,11 +31,11 @@ PM_START_TEXT = """
 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🥂
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_OP_ll)
-┣★𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🌱 [𝗝𝗢𝗜𝗡](https://t.me/MY_ABOUT_HERE)
+┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_0P_ll)
+┣★𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🌱 [𝗝𝗢𝗜𝗡](https://t.me/TKS_CHAT_OFFICIAL)
 ┣★𝐆𝐑𝐎𝐔𝐏🌱 [𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/+I67bz3RT2cA3ODU1)
 ┗━━━━━━━━━━━━━━━━━┛
-     🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_OP_ll)
+     🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_0P_ll)
 """
 
 START_TEXT = """
