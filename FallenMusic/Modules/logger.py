@@ -22,7 +22,7 @@
 from pyrogram import filters
 
 import config
-from strings import get_command
+from FallenMusic import get_command
 from FallenMusic import app
 from FallenMusic import SUDOERS
 from FallenMusic.utils.database import add_off, add_on
