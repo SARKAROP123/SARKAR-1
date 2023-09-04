@@ -66,7 +66,7 @@ from FallenMusic.Helpers.thumbnails import gen_qthumb, gen_thumb
     & ~filters.via_bot
 )
 async def play(_, message: Message):
-    fallen = await message.reply_text("» 🍹𝐖𝐀𝐈𝐓🌱𝐁𝐀𝐁𝐘💖𝐏𝐋𝐀𝐘𝐈𝐍𝐆💋𝐅𝐎𝐑🥀𝐔𝐇𝐇...")
+    fallen = await message.reply_text("»💥𝐏𝐥𝐚𝐲𝐢𝐧𝐠💥")
     try:
         await message.delete()
     except:
@@ -179,7 +179,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit_text("» ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴘʟᴀʏ ʙᴀʙʏ ?")
-        await fallen.edit_text("💯")
+        await fallen.edit_text("💥")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
