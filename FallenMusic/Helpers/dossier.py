@@ -22,7 +22,17 @@
 
 from FallenMusic import BOT_NAME
 
-PM_START_TEXT = """
+PM_START_TEXT = """format(usr.first_name), parse_mode=ParseMode.MARKDOWN
+            )
+            time.sleep(0.4)
+            lol.edit_text("🎊")
+            time.sleep(0.5)
+            lol.edit_text("⚡")
+            time.sleep(0.3)
+            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            time.sleep(0.4)
+            lol.delete()
+            update.effective_message
 𝐁𝐀𝐁𝐘🍸 {0}, 🍹
 ๏ 𝐓𝐇𝐈𝐒** {1} !
 
@@ -31,11 +41,11 @@ PM_START_TEXT = """
 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🥂
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABY_ll)
+┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)
 ┣★𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🌱 [𝗝𝗢𝗜𝗡](https://t.me/TKS_JOIN)
-┣★𝐆𝐑𝐎𝐔𝐏🌱 [𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/+I67bz3RT2cA3ODU1)
+┣★𝐆𝐑𝐎𝐔𝐏🌱 [𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/TKS_CHAT_OFFICIAL)
 ┗━━━━━━━━━━━━━━━━━┛
-     🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABY_ll)
+🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)
 """
 
 START_TEXT = """
