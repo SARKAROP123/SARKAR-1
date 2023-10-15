@@ -22,17 +22,7 @@
 
 from FallenMusic import BOT_NAME
 
-PM_START_TEXT = """format(usr.first_name), parse_mode=ParseMode.MARKDOWN
-            )
-            time.sleep(0.4)
-            lol.edit_text("🎊")
-            time.sleep(0.5)
-            lol.edit_text("⚡")
-            time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
-            time.sleep(0.4)
-            lol.delete()
-            update.effective_message
+PM_START_TEXT = """
 𝐁𝐀𝐁𝐘🍸 {0}, 🍹
 ๏ 𝐓𝐇𝐈𝐒** {1} !
 
